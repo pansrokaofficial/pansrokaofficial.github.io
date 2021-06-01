@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap" rel="stylesheet">
+
+    <title>Score Keeper</title>
+</head>
+<body>
+ 
+    <div id="dimm">
+        <div id="popupWrapper">
+            <span>Select icon</span>
+            <div id="popup">
+                <div id="icon1" class="icon"><span class="emoji" id="emoji1">🏓</span></div>
+                <div id="icon2" class="icon"><span class="emoji" id="emoji2">⚽</span></div>
+                <div id="icon3" class="icon"><span class="emoji" id="emoji3">🎮</span></div>
+            </div>
+            <a href="#" id="closePopup">Close</a>
+        </div>
+    </div>
+
+    <div id="widget">
+    <div id="widgetContentsWrapper">
+    <div id="iconSection">
+        <div id="icon" class="icon"><span class="emoji" id="emoji">🏓</span></div>
+    </div>
+    <h2 id="title">Score keeper</h2>
+
+    <div>
+        <select name="playTo" id="playTo">
+            <option value="3">Playing to 3 points</option>
+            <option value="5">Playing to 5 points</option>
+            <option value="7">Playing to 7 points</option>
+            <option value="10">Playing to 10 points</option>
+        </select>
+    </div>
+
+    <div id="playersContainer">
+        <div id="p1">
+            <input type="text" id="p1Name" value="Player 1">
+            <h1 id="p1Score">0</h1>
+            <button id="p1Button">+1</button>
+        </div>
+
+        <div id="p2">
+            <input type="text" id="p2Name" value="Player 2">
+            <h1 id="p2Score">0</h1>
+            <button id="p2Button">+1</button>
+        </div>
+    </div>
+
+    <div class="link">
+        <a href="#" id="reset">Reset score</a>
+    </div>
+    <div class="link">
+        <a href="#" id="resetMobile">Reset everything</a>
+    </div>
+
+    <div class="subtitle" id="widgetSubt">Ctrl + click to reset everything</div>
+
+    </div>
+    </div>
+
+    <div id="footer" class="subtitle">
+        <span>Copyright © 2021 <a href="http://sroka.es/" target="_blank">Pan Sroka</a>.<br>First ever JS app created! <a href="https://party.js.org/" target="_blank">Party.js</a> library used.</span>
+    </div>
+
+<script src="party.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
