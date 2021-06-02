@@ -276,19 +276,19 @@ closePopupLink.addEventListener('click', (e) => {
 })
 
 // OS Detection
-if (navigator.userAgent.indexOf("Win") != -1) {
+if (navigator.userAgent.indexOf("Win") != -1 || navigator.userAgent.indexOf("Windows") != -1) {
     os = "Win";}
 if (navigator.userAgent.indexOf("Mac") != -1) {
     os = "Mac";}
 if (navigator.userAgent.indexOf("Linux") != -1) {
     os = "Linux";}
-if (navigator.userAgent.indexOf("Android") != -1) {
-    os = "Android";}
-if (navigator.userAgent.indexOf("like Mac") != -1) {
-    Name = "iOS";}
+// if (navigator.userAgent.indexOf("Android") != -1) {
+//     os = "Android";}
+// if (navigator.userAgent.indexOf("like Mac") != -1) {
+//     Name = "iOS";}
 
 // 2nd reset link on iOS and Android
-if (os === "Android" || os === "iOS") {
+if (!os === "Win" || !os === "Mac" || !os === "Linux") {
     resetLinkMobile.style.display = "inline";
     widgetSubt.style.display = "none";
 };

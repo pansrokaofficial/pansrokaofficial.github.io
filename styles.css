@@ -273,6 +273,7 @@ a:hover, a:active {
 #footer {
     transform: translate(0, -5.5em);
     line-height: 1.5;
+    font-size: .66em;
 }
 
 .subtitle {
@@ -283,4 +284,17 @@ a:hover, a:active {
 
 .subtitle a, .subtitle a:visited, .subtitle a:hover, .subtitle a:active {
     color: #293372;
+}
+
+@media (max-width: 480px) {
+    #widget {
+        width: 80%;}
+
+    #popupWrapper {
+        width: 60%;}
+
+    #icon1, #icon2, #icon3 {
+        margin: 1.55em 2.5em;
+    }
+    
 }
