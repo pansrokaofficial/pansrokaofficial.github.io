@@ -207,6 +207,7 @@ input, select {
     text-align: center;
     transition: all .15s ease-out;
     outline: none;
+    -webkit-appearance:none;
 }
 
 input {
@@ -217,6 +218,7 @@ input {
 select {
     padding: 0 1.55em 0;
     margin: .5em 0 1.55em;
+
 }
 
 input:hover, input:focus, input:active, select:hover, select:focus, select:active {
