@@ -288,7 +288,7 @@ if (navigator.userAgent.indexOf("Linux") != -1) {
 //     Name = "iOS";}
 
 // 2nd reset link on iOS and Android
-if (!os === "Win" || !os === "Mac" || !os === "Linux") {
+if (!os === "Win" || !os === "Mac") {
     resetLinkMobile.style.display = "inline";
     widgetSubt.style.display = "none";
 };

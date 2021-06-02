@@ -296,5 +296,9 @@ a:hover, a:active {
     #icon1, #icon2, #icon3 {
         margin: 1.55em 2.5em;
     }
+
+    #resetMobile {
+        display: inline;
+    }
     
 }
