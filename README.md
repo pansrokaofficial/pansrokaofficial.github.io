@@ -1,7 +1,7 @@
 # Score Keeper
 
 My first humble JS app made solely for practice and future progress monitoring.
-
+Preview here: [https://pansrokaofficial.github.io/](https://pansrokaofficial.github.io/)
 
 ## Features
 
