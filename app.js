@@ -282,13 +282,13 @@ if (navigator.userAgent.indexOf("Mac") != -1) {
     os = "Mac";}
 if (navigator.userAgent.indexOf("Linux") != -1) {
     os = "Linux";}
-// if (navigator.userAgent.indexOf("Android") != -1) {
-//     os = "Android";}
-// if (navigator.userAgent.indexOf("like Mac") != -1) {
-//     Name = "iOS";}
+if (navigator.userAgent.indexOf("Android") != -1) {
+    os = "Android";}
+if (navigator.userAgent.indexOf("like Mac") != -1) {
+    Name = "iOS";}
 
 // 2nd reset link on iOS and Android
-if (!os === "Win" || !os === "Mac" || !os === "Linux") {
+if (!os === "Win" || !os === "Mac") {
     resetLinkMobile.style.display = "inline";
     widgetSubt.style.display = "none";
 };
