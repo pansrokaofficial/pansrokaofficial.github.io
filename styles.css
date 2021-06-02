@@ -207,7 +207,7 @@ input, select {
     text-align: center;
     transition: all .15s ease-out;
     outline: none;
-    -webkit-appearance:none;
+    -webkit-appearance: none;
 }
 
 input {
@@ -293,8 +293,7 @@ a:hover, a:active {
         width: 80%;}
     
     #popupWrapper {
-        width: 60%;}
-    
+        width: 60%;}   
 }
 
 @media (max-width: 480px) {
@@ -309,5 +308,4 @@ a:hover, a:active {
     #widgetSubt {
         display: none;
     }
-    
 }
